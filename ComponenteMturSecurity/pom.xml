@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Componente Principal -->
+    <groupId>com.draw</groupId>
+    <artifactId>componente-mtur-security</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>ComponenteTeste</name>
+    <description>Parent pom do Componente</description>
+
+    <modules>
+        <module>sica-client-ejb</module>
+        <module>auth-ejb-client</module>
+        <module>mtur-security-ear</module>
+    </modules>
+
+</project>
